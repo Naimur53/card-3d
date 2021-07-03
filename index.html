@@ -3,10 +3,11 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="elements/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!--poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
     <!-- Our main  CSS -->
     <link rel="stylesheet" href="elements/css/all.css">
     <link rel="stylesheet" href="elements/css/style.css">
@@ -14,14 +15,28 @@
     <title>Hello, world!</title>
   </head>
   <body> 
-    
-    
-    
-
-    <!-- Optional JavaScript; choose one of the two! -->
-    <script src="elements/js/jquery-3.5.1.min.js"></script>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="elements/js/bootstrap.bundle.min.js"></script> 
+    <div class="container">
+      <div class="card">
+        <div class="sneaker">
+          <div class="circle"></div>
+          <img src="elements/images/adidas.png" alt="">
+        </div>
+        <div class="info">
+          <h1 class="title">Adidas</h1>
+          <h3>FUTURE READY TRAINERS WITH WRAPPED BOOST FOR EXCEPTION COMFORT</h3>
+          <div class="sizes">
+            <button>39</button>
+            <button>40</button>
+            <button class="active">42</button>
+            <button>44</button>
+          </div>
+          <div class="purchase">
+            <button>purchase</button>
+          </div>
+        </div>
+      </div>
+    </div>
+     
     <script src="elements/js/main.js"></script> 
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
